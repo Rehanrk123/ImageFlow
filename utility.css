@@ -1,0 +1,12 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 1350px;
+    margin-inline: auto;
+    overflow: hidden;
+}
+
+
