@@ -22,17 +22,28 @@
     </nav>
     <div class="hero ">
         <div>
-            <input type="text" class="search-image">
+            <input type="text" class="search-image" id="search-image" placeholder="eg nature">
         </div>
         <div>
-            <button class="search-button">Search</button>
+            <button class="search-button" id="search-button">Search</button>
         </div>
         
     </div>
     <main>
-        <div class="card-container">
-
+        <div class="card-container container" id="card-container">
+            
         </div>
     </main>
+    <template id="template-image-card" >
+        <div class="card">
+            <img src="#" alt="" id="news-img">
+            <div class="img-author" id="img-author">rehan khan</div>
+        </div>
+    </template>
+    <div class="load flex">
+        <button id="load-more">Load more</button>
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>

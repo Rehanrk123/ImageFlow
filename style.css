@@ -35,3 +35,72 @@ nav{
 
 
 /* --------------------------------------- */
+.hero{
+    height: 600px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:center;
+    gap: 10px;
+    background-image: url("/images/banner.jpg");
+    background-size: 100% 100%;
+    object-fit: contain;
+    filter: contrast(1);
+    
+}
+.hero input{
+    outline: none;border: none;
+    padding-inline: 10px;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    color: black;
+}
+
+.hero button{
+    padding: 5px;
+    width: 80px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: #99cbec;
+}
+
+
+
+/* ---------------------------------- */
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content:start;
+    row-gap: 5px;
+    gap: 5px;
+    align-items: start;
+}
+.card{
+    box-shadow: 0 0 4px #d4ecff; 
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.card:hover{
+    box-shadow: 2px 2px 8px #d4ecff;
+    transform: translateY(-2px);
+}
+.card img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+#load-more{
+    height: 40px;
+    width: 80px;
+}
+.load{
+    margin-bottom: 40px;
+}
