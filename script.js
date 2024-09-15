@@ -70,7 +70,7 @@ searchButton.addEventListener('click',()=>{
     cardContainer.innerHTML = "";
     getImages(`https://api.pexels.com/v1/search?query=${searchQuery}&per_page=15`)
 })
-
+//
 const links = document.querySelectorAll("li");
 links.forEach(link =>{
     link.addEventListener("click",(event)=>{
